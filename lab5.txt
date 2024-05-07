@@ -1,0 +1,120 @@
+Q.1. WAP to print numbers 50 to 1 in reverse in a single line using for loop
+INPUT-->
+package vinu;
+
+public class Loops {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+for (int i =50; i>=1;i--) {
+	System.out.println(i+"");
+}
+	}
+
+}
+
+OUTPUT-->
+5049484746454443424140393837363534333231302928272625242322212019181716151413121110987654321
+*************END************
+
+
+
+Q.2.WAP to print numbers 50 to 1 in reverse in a single line using while loop 
+INPUT-->
+package vinu;
+
+public class Loops {
+
+	public static void main(String[] args) {
+int i =50;
+while (i>=1) {
+	System.out.println(i+"");
+	i--;
+		}
+	}
+}
+OUTPUT-->
+5049484746454443424140393837363534333231302928272625242322212019181716151413121110987654321
+**************END**************
+
+
+
+
+Q.3.WAP to print numbers 50 to 1 in reverse in a single line using do while loop
+INUT-->
+package vinu;
+
+public class Loops {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i =50;
+		do {
+			System.out.println(i+"");
+			i--;
+		}while (i>=1);
+        }
+	}
+OUTPUT-->
+5049484746454443424140393837363534333231302928272625242322212019181716151413121110987654321
+***************END************
+
+
+Q.4.WAP to print multiplication table of number taken by user using while loop
+INPUT-->
+package vinu;
+
+import java.util.Scanner;
+
+public class Loops {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+				System.out.print("Enter the number to print its multiplication table:");
+				int number = scanner.nextInt();
+				
+				System.out.println("Multiplication table of "+number+":");
+				int i = 1;
+				while (i<=10) {
+					System.out.println(number+"*"+i+"="+(number *i));
+					i++;
+				}
+			
+        }
+	}
+OUTPUT-->
+Enter the number to print its multiplication table:
+****************END*************
+
+
+Q.5 WAP to print prime numbers from 1 to 100
+INPUT-->
+package vinu;
+
+import java.util.Scanner;
+
+public class Loops {
+
+	public static void main(String[] args) {
+		System.out.println("Prime numbers from 1 to 100:");
+		for (int i =2; i<=100; i++) {
+			if (isPrime(i)) {
+				System.out.print(i+"");
+			}
+		}
+	}
+	
+	public static boolean isPrime(int num) {
+		if (num<=1) {
+			return false;
+		}
+		for (int i=2; i<= Math.sqrt(num); i++) {
+			if (num % i==0) {
+			}
+				}
+			return true;
+        }
+	}
+OUTPUT-->
+Prime numbers from 1 to 100:
+123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100

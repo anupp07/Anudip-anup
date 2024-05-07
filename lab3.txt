@@ -1,0 +1,140 @@
+package basicjavsaproject;
+
+public class Patterns {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 byte b = 126;
+			long l = b;
+			System.out.println(l);
+			
+			short s =b;
+			System.out.println(s);
+			
+			int i = b;
+			System.out.println(i);
+			
+			long val1= 123445778899l;
+			byte res = (byte)val1;
+			System.out.println(res);
+
+			short short1 = (short) val1;
+			System.out.println(short1);
+			
+			
+			int i1 = (int)val1;
+			System.out.println(i1);
+			
+			int a = 55;
+			char c1 = (char)a;
+			System.out.println(c1);
+			
+			float pi = 3.1233f;
+			double d = pi;
+			System.out.println(d);
+			System.out.println(pi);
+			
+			
+			double d1 = 3.142344558;
+			float f1 = (float)d1;
+			System.out.println(f1);
+			System.out.println(d1);
+    
+    
+    
+    
+    
+		
+	}
+
+}
+
+output
+126
+126
+126
+-45
+6611
+-1108272685
+7
+3.123300075531006
+3.1233
+3.1423445
+3.142344558
+
+Q2
+System.out.println("=========");
+		System.out.println("=======================");
+
+		char ch = 'a';
+
+		int c = ch;
+
+		float F = ch;
+
+		System.out.println(c);
+
+		System.out.println(F);
+    
+    
+output
+=========
+=======================
+97
+97.0
+
+Q3
+System.out.println("=======================");
+
+		System.out.print("Uppercase Alphabet :");
+
+		for (char E = 'A'; E <= 'Z'; E++)
+
+		{
+
+			System.out.print(E);
+
+		}
+
+		
+
+		System.out.println();
+
+		System.out.print("Lowercase Alphabet :");
+
+		for (char H = 'a'; H <= 'z'; H++)
+
+		{
+
+			System.out.print(H);
+		}
+	}
+}
+
+output
+Uppercase Alphabet :ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Lowercase Alphabet :abcdefghijklmnopqrstuvwxyz
+
+int var = 13;
+		long longVal = (int)var; 
+		System.out.println(longVal);
+		
+		byte b = 126;
+		long l = b;
+		System.out.println(l);
+		
+		short s = b;
+		System.out.println(s);
+		
+		int i = b;
+		System.out.println(i);
+		
+		long val1 = 1234456678898l;
+		byte res = (byte)val1;
+		System.out.println(res);
+output
+13
+126
+126
+126
+-14
